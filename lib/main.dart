@@ -46,7 +46,7 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   @override
   int current_index = 0;
-  final screen = [Homepage(), searchscreen(), postscreen(), Profilescreen()];
+  final screen = [Homepage(), searchscreen(), ImagePickerScreen(), Profilescreen()];
 
   Widget build(BuildContext context) {
     return Scaffold(
